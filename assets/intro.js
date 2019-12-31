@@ -70,7 +70,7 @@ $(window).on("load", function() {
 			this.sx = Math.random() * 0.5;
 			this.sy = Math.random() * 0.5;
 			this.o = Math.random() * 1;
-			this.delay = Math.random() * 100;
+			this.delay = Math.random() * 200;
 			this.delayCtr = 0;
 			this.hue = Math.random() * 360;
 		};
@@ -147,10 +147,10 @@ $(window).on("load", function() {
 		txtCanvas.width = WIDTH;
 		txtCanvas.height = HEIGHT;
 
-		txtCtx.font = 'bold 6vw Sans-serif';
+		txtCtx.font = 'bold 7vw Sans-serif';
 		txtCtx.textAlign = 'center';
 		txtCtx.baseline = 'middle';
-		txtCtx.fillText('YOURDOMAIN.COM', WIDTH / 2, HEIGHT / 2);
+		txtCtx.fillText('Coming Soon', WIDTH / 2, HEIGHT / 2);
 
 		ctx.font = 'bold 12px Monospace';
 		ctx.textAlign = 'center';
